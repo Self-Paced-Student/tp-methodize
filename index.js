@@ -6,7 +6,7 @@
 // You need to write a function named "methodize", that
 // converts a binary function to a method. For example:
 //
-// function add (a, b) {return a + b;};
+// function add (a, b) {return a + b;}
 // Number.prototype.add = methodize(add);
 // (3).add(5) -> 8
 
