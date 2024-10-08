@@ -11,7 +11,9 @@
 // (3).add(5) -> 8
 
 function methodize (func) {
-
+    return function (b) {
+        return func(this, b);
+    }
 }
 
 module.exports = methodize;
